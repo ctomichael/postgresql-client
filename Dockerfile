@@ -1,2 +1,2 @@
-FROM alpine:3.12
-RUN apk --no-cache add postgresql-client
+FROM ubuntu:20.04
+RUN apt-get update && apt-get install -y postgresql-client-12
